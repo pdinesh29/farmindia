@@ -127,18 +127,19 @@
             <div class="form-content">
                 <div class="form-section hidden">
                     <h2>Sign Up as <span id="role-signup"></span></h2>
-                    <form>
-                        <input type="text" placeholder="Name" required><br>
-                        <input type="email" placeholder="Email" required><br>
-                        <input type="password" placeholder="Password" required><br>
+                    <form action="">
+                        <input type="text" value="" name="tip" hidden>
+                        <input type="text" placeholder="Name" name="name" required><br>
+                        <input type="email" placeholder="Email" name="email" required><br>
+                        <input type="password" placeholder="Password" name="pass" required><br>
                         <button class="button" type="submit">Sign Up</button>
                     </form>
                 </div>
                 <div class="form-section">
                     <h2>Login as <span id="role-login"></span></h2>
-                    <form>
-                        <input type="email" placeholder="Email" required><br>
-                        <input type="password" placeholder="Password" required><br>
+                    <form action="">
+                        <input type="email" placeholder="Email" name="email" required><br>
+                        <input type="password" placeholder="Password" name="pass" required><br>
                         <button class="button" type="submit">Login</button>
                     </form>
                 </div>
